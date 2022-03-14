@@ -3,6 +3,7 @@ from pytube import YouTube
 from pystyle import Colorate, Colors, Center
 from os import system
 from time import sleep
+import os
 import colorsys
 
 
@@ -43,10 +44,9 @@ while boucle1:
             print(Colorate.Horizontal(Colors.red_to_purple, "[!] Number of views : " + str(yt.views)))
             print(Colorate.Horizontal(Colors.red_to_purple, "[!] Length of video : " + str(yt.length)))
             print(Colorate.Horizontal(Colors.red_to_purple, "[!] Rating of video : " + str(yt.rating)))
-            
+            sleep(1)
             #Getting the highest resolution possible
-            ys = yt.streams.get_highest_resolution()
-            sleep(2)
+            ys = yt.streams.get_highest_resolution()            
 
             print(Colorate.Horizontal(Colors.red_to_purple, "[?] Do you want to download the video ? y for yes ; n for no"))
             answer = input()
