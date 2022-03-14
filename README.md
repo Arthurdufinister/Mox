@@ -9,7 +9,7 @@
 # Dependencies
 
  ⭐️ PyStyle  
- 🌙 Requests
+ 🌙 Requests  
  🌝 PyTube
  
 
