@@ -3,7 +3,7 @@
 
 -----
 
-**Only works in code editors and not when launched in python ! (actually trying to resolve the error**
+**Only works in code editors like vs code and not when launched in python ! (actually trying to resolve the error**
 
 
 # Dependencies
